@@ -1,0 +1,28 @@
+/* src/components/Post.css */
+.post {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  cursor: pointer;
+}
+
+.post:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Increase shadow size and intensity */
+  background-color: #f0f8ff; /* Change background color when hovered */
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.post-author,
+.post-id {
+  color: #555;
+  margin-bottom: 5px;
+}
